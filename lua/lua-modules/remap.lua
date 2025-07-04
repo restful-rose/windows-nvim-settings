@@ -60,3 +60,7 @@ vim.keymap.set("n", "/", "/\\v")
 
 -- Mark all text for copying
 vim.keymap.set("n", "<C-A>", "ggVG")
+
+-- Make Control backspace remove a word in insert mode
+vim.keymap.set("i", "<C-BS>", "<C-W>")
+vim.keymap.set("i", "<C-H>", "<C-W>")
