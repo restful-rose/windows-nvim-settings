@@ -22,4 +22,6 @@ vim.opt.termguicolors = true
 -- Make some margin of 8 lines when scrolling up and down.
 vim.opt.scrolloff = 8
 
-
+-- Set UTF-8 encoding with byte-order-mark by default
+vim.opt.fileencoding = 'utf-8'
+vim.opt.bomb = true
